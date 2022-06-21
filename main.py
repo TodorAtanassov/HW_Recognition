@@ -10,6 +10,6 @@ from keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
 
-data = pd.read_csv(r"E:\a-z alphabets\A_Z Handwritten Data.csv").astype('float32')
+
+data = pd.read_csv(r"E:\Python\Projects\HW_Recognition\A_Z Handwritten Data.csv").astype('float32')
 print(data.head(10))
-<div class="open_grepper_editor" title="Edit & Save To Grepper"></div>
