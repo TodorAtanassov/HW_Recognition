@@ -11,5 +11,5 @@ from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
 
 
-data = pd.read_csv(r"E:\Python\Projects\HW_Recognition\A_Z Handwritten Data.csv").astype('float32')
+data = pd.read_csv(r"E:\Python\Projects\samples\A_Z Handwritten Data.csv").astype('float32')
 print(data.head(10))
